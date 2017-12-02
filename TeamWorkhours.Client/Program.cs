@@ -1,13 +1,12 @@
-﻿namespace TeamWorkhours.Client
+﻿namespace TeamWorkPeriods.Client
 {
-    using CsvHelper;
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using TeamWorkhours.Engine;
-    using TeamWorkhours.Engine.Converters;
-    using TeamWorkhours.Engine.Models;
+    using TeamWorkPeriods.Engine;
+    using TeamWorkPeriods.Engine.Converters;
+    using TeamWorkPeriods.Engine.Models;
 
     public class Program
     {

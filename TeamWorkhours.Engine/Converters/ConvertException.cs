@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TeamWorkhours.Engine.Converters
+namespace TeamWorkPeriods.Engine.Converters
 {
     public class ConvertException : Exception
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using TeamWorkhours.Engine.Models;
+using TeamWorkPeriods.Engine.Models;
 
-namespace TeamWorkhours.Engine
+namespace TeamWorkPeriods.Engine
 {
     public class TeamWorkPeriodEngine : ITeamWorkPeriodEngine
     {

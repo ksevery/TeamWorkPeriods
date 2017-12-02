@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TeamWorkhours.Engine.Models;
+using TeamWorkPeriods.Engine.Models;
 
-namespace TeamWorkhours.Engine
+namespace TeamWorkPeriods.Engine
 {
     public interface ITeamWorkPeriodEngine
     {

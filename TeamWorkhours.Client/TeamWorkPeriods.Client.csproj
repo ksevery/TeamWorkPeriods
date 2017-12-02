@@ -6,11 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CsvHelper" Version="6.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\TeamWorkhours.Engine\TeamWorkhours.Engine.csproj" />
+    <ProjectReference Include="..\TeamWorkhours.Engine\TeamWorkPeriods.Engine.csproj" />
   </ItemGroup>
 
 </Project>

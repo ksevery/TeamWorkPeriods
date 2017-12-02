@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TeamWorkhours.Engine.Models
+namespace TeamWorkPeriods.Engine.Models
 {
     public class EmployeeTeamWorkPeriod
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using TeamWorkhours.Engine.Models;
+using TeamWorkPeriods.Engine.Models;
 
-namespace TeamWorkhours.Engine.Converters
+namespace TeamWorkPeriods.Engine.Converters
 {
     public static class DataConverter
     {

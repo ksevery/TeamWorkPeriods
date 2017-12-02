@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace TeamWorkhours.Engine
+namespace TeamWorkPeriods.Engine
 {
     public static class Extensions
     {

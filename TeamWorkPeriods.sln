@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamWorkhours.Client", "TeamWorkhours.Client\TeamWorkhours.Client.csproj", "{2572E5E7-B131-4274-A787-D434EE6FD058}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamWorkPeriods.Client", "TeamWorkhours.Client\TeamWorkPeriods.Client.csproj", "{2572E5E7-B131-4274-A787-D434EE6FD058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamWorkhours.Engine", "TeamWorkhours.Engine\TeamWorkhours.Engine.csproj", "{E83C2B47-2E36-48FB-9B89-234D29FE7380}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamWorkPeriods.Engine", "TeamWorkhours.Engine\TeamWorkPeriods.Engine.csproj", "{E83C2B47-2E36-48FB-9B89-234D29FE7380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
