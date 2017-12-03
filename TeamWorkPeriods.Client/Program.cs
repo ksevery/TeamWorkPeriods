@@ -51,7 +51,8 @@
                         continue;
                     }
 
-                    Console.WriteLine($"The employees who've worked together the longest are: {employees.FirstEmployee.EmployeeId} and {employees.SecondEmployee.EmployeeId} for a total of {employees.WorkedTogetherFor.Days} days.");
+                    Console.WriteLine($"The employees who've worked together the longest are: {employees.FirstEmployee.EmployeeId} and {employees.SecondEmployee.EmployeeId} for a total of {employees.WorkedTogetherFor.Days} days in team {employees.FirstEmployee.TeamId}.");
+
                     Console.Write("If you'd like to continue, enter any key, or type in EXIT to exit the application: ");
                     var endOfCycleCommand = Console.ReadLine();
 
@@ -63,6 +64,7 @@
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error during application execution - something went wrong.");
+                    // TODO: Log the exception
                 }
                 
             }
