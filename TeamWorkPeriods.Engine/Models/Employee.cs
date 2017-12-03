@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TeamWorkPeriods.Engine.Models
 {
-    public class EmployeeTeamWorkPeriod
+    public class Employee
     {
         public int EmployeeId { get; set; }
 
@@ -12,6 +12,14 @@ namespace TeamWorkPeriods.Engine.Models
 
         public DateTime DateFrom { get; set; }
 
-        public DateTime? DateTo { get; set; }
+        public DateTime DateTo { get; set; }
+
+        public TimeSpan WorkedFor
+        {
+            get
+            {
+                return this.DateTo - this.DateFrom;
+            }
+        }
     }
 }

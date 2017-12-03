@@ -42,10 +42,16 @@
                         continue;
                     }
 
-                    var engine = new TeamWorkPeriodEngine();
+                    var engine = new TeamWorkPeriodsEngine();
                     var employees = engine.GetLongestPeriodEmployees(employeesTeamsPeriods);
 
-                    Console.WriteLine($"The employees who've worked together the longest are: {employees.FirstEmployee.EmployeeId} and {employees.SecondEmployee.EmployeeId}");
+                    if (employees == null)
+                    {
+                        Console.WriteLine("No overlapping employees found - please check the text file and make sure there are employees that have worked together.");
+                        continue;
+                    }
+
+                    Console.WriteLine($"The employees who've worked together the longest are: {employees.FirstEmployee.EmployeeId} and {employees.SecondEmployee.EmployeeId} for a total of {employees.WorkedTogetherFor.Days} days.");
                     Console.Write("If you'd like to continue, enter any key, or type in EXIT to exit the application: ");
                     var endOfCycleCommand = Console.ReadLine();
 
@@ -54,9 +60,9 @@
                         break;
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    
+                    Console.WriteLine("Error during application execution - something went wrong.");
                 }
                 
             }
