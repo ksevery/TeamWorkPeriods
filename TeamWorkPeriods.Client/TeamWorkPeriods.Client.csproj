@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TeamWorkhours.Engine\TeamWorkPeriods.Engine.csproj" />
+    <ProjectReference Include="..\TeamWorkPeriods.Engine\TeamWorkPeriods.Engine.csproj" />
   </ItemGroup>
 
 </Project>
